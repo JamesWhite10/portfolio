@@ -1,12 +1,16 @@
 .mainBlock {
     height: 100vh;
     background-color: coral;
+    flex-wrap: wrap;
 }
 
 .greeting {
     width: 300px;
+    background-color: gold;
 }
 
 .photo {
-
+    width: 300px;
+    height: 400px;
+    background-color: gold;
 }
