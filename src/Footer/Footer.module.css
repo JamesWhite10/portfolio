@@ -12,15 +12,15 @@
     background-color: gold;
 }
 
-.sqrt {
-    width: 400px;
+.socialContainer {
+    width: 280px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     background-color: crimson;
 }

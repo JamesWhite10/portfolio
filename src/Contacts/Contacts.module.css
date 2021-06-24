@@ -21,16 +21,16 @@
 }
 
 .tel {
-    width: 400px;
+    width: 250px;
 }
 
 .email {
-    width: 400px;
+    width: 250px;
     margin-top: 10px;
 }
 
 .textarea {
-    width: 400px;
-    height: 120px;
+    width: 250px;
+    height: 90px;
     margin-top: 10px;
 }
