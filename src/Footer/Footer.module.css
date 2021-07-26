@@ -9,7 +9,8 @@
 }
 
 .title {
-    background-color: gold;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .socialContainer {
@@ -23,4 +24,13 @@
     width: 30px;
     height: 30px;
     background-color: crimson;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
+
+.rights {
+    margin-top: 40px;
 }
