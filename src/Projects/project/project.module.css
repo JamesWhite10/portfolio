@@ -1,7 +1,7 @@
 .project {
-    width: 290px;
-    background-color: gold;
-    text-align: center;
+    width: 340px;
+    background-color: #1f1f20;
+    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,10 +10,26 @@
 
 .icon {
     height: 290px;
-    width: 290px;
+    width: 340px;
     background-color: crimson;
 }
 
 .button {
     margin-top: 145px;
+    margin-left: 150px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.description {
+    margin-top: 15px;
+    color: white;
+    font-family: "Bookman Old Style";
+    font-size: 18px;
 }

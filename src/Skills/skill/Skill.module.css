@@ -1,7 +1,7 @@
 .skill {
-    width: 220px;
+    width: 170px;
     min-height: 250px;
-    background-color: gold;
+    background-color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -13,6 +13,25 @@
 .icon {
     height: 60px;
     width: 60px;
-    background-color: crimson;
     margin-top: 20px;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+}
+
+.skill h3 {
+    margin-top: 50px;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.description {
+    margin-top: 10px;
+    color: white;
+    font-family: "Bookman Old Style";
+    font-size: 18px;
 }

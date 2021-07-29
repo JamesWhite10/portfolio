@@ -1,6 +1,10 @@
 .nav {
-    border: 1px solid red;
     width: 500px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
 }
