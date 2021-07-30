@@ -39,7 +39,7 @@ export const Skills = () => {
                         " its advantages in developing web applications."}
                         image={"https://iconape.com/wp-content/png_logo_vector/typescript.png"}/>
                     <Skill
-                        skill={"Git ang GitHub"}
+                        skill={"Git and GitHub"}
                         description={"I work with a version control system and understand how to use it on a project." +
                         " I have experience with GitHub, and I actively use it."}
                         image={"https://web-profi.by/wp-content/uploads/git.jpg"}/>
