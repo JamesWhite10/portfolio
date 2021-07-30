@@ -5,13 +5,13 @@ type ProjectPropsType = {
     nameProject: string
     description: string
     image: string
+    style: any
 }
 
 export const Project: React.FC<ProjectPropsType> = (props) => {
     return (
         <div className={style.project}>
-            <div className={style.icon}>
-                <img src={props.image}/>
+            <div style={props.style} className={style.icon}>
                 <button className={style.button}>View</button>
             </div>
             <h3 className={style.h3}>{props.nameProject}</h3>
