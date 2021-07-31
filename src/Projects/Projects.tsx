@@ -1,8 +1,8 @@
 import React from "react";
-import style from "./Projects.module.css"
+import style from "./Projects.module.scss"
 import styleContainer from "./../common/styles/Container.module.css"
 import {Project} from "./project/project";
-import {TableOfContents} from "../table/TableOfContents";
+import {Title} from "../table/Title";
 import network from "./../assets/image/network.jpg"
 import todo from "./../assets/image/todo.jpg"
 import counter from "./../assets/image/counter.jpg"
@@ -13,7 +13,7 @@ export const Projects = () => {
     return (
         <div id={"projects"} className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <TableOfContents title={"My Projects"}/>
+                <Title title={"My Projects"}/>
                 <div className={style.projects}>
                     <Project style={{backgroundImage: `url(${network})`}} nameProject={"Social Network"} description={"A social network project in which" +
                     " all the main tools and architectural solutions used in modern development are concentrated." +
