@@ -1,0 +1,58 @@
+.project {
+  width: 340px;
+  background-color: #1f1f20;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+
+  .icon {
+    height: 290px;
+    width: 340px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.8;
+    }
+
+    .button {
+      font-family: "Bebas Neue";
+      font-weight: 300;
+      color: white;
+      background-color: black;
+      height: 30px;
+      width: 80px;
+      margin-top: 140px;
+      margin-left: 130px;
+      border-radius: 10px 10px 10px 10px;
+      border: 2px solid white;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .project h3 {
+    margin-top: 10px;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    font-weight: normal;
+  }
+
+  .description {
+    margin-top: 15px;
+    color: white;
+    font-family: "Bookman Old Style";
+    font-size: 18px;
+  }
+}
