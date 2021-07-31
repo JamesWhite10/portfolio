@@ -1,13 +1,13 @@
 import React from "react";
 import style from "./Contacts.module.css"
 import styleContainer from "../common/styles/Container.module.css";
-import {TableOfContents} from "../table/TableOfContents";
+import {Title} from "../table/Title";
 
 export const Contacts = () => {
     return (
         <div id={"contacts"} className={style.contacts}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <TableOfContents title={"Contacts"}/>
+                <Title title={"Contacts"}/>
                 <form className={style.data}>
                    <div><img className={style.icon} src={"https://icon-library.com/images/phone-white-icon/phone-white-icon-23.jpg"} alt={"telephone"}/>+7 960 607 25 08</div>
                     <div><img className={style.icon} src={"https://www.pngkit.com/png/full/222-2226274_white-email-icon-png-download-mail-symbol-png.png"} alt={"email"}/>max.migalin10@gmail.com</div>
