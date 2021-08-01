@@ -1,0 +1,53 @@
+.contacts {
+    height: 100vh;
+    background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 0;
+    padding: 50px 0;
+    & a {
+        color: black;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        position: fixed;
+        z-index: 2;
+        top: 590px;
+        right: 10px;
+        border: 2px solid white;
+        border-radius: 10px 10px 10px 10px;
+        opacity: 0.4;
+    }
+    .contactsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .data {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: white;
+        .icon {
+            margin-top: 20px;
+            margin-right: 60px;
+            width: 40px;
+            height: 40px;
+            vertical-align: -15px;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+

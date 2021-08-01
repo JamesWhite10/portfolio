@@ -1,7 +1,7 @@
 import React from "react";
-import style from "./Contacts.module.css"
+import style from "./Contacts.module.scss"
 import styleContainer from "../common/styles/Container.module.css";
-import {Title} from "../table/Title";
+import {Title} from "../Title/Title";
 
 export const Contacts = () => {
     return (
