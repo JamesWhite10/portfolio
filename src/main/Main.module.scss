@@ -1,0 +1,49 @@
+.mainBlock {
+    height: 100vh;
+    flex-wrap: wrap;
+    animation: scroll 80s linear infinite;
+    background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
+    color: #eee;
+    min-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    padding: 50px 0;
+    @keyframes scroll {
+        100%{
+            background-position:0 -3000px;
+        }
+    }
+    .greeting {
+        color: white;
+        width: 400px;
+        & span {
+            font-size: 20px;
+            font-family: "Bookman Old Style";
+        }
+        & h1 {
+            margin-top: 15px;
+            font-family: "Bebas Neue";
+            font-weight: 300;
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 40px;
+            line-height: 1.2;
+            letter-spacing: 5px;
+        }
+        & p {
+            font-size: 30px;
+            font-family: "Bookman Old Style";
+        }
+    }
+    .photo img {
+        max-width: 400px;
+        height: 450px;
+        border-style: outset;
+        object-fit: cover;
+        width: 100%;
+    }
+}
