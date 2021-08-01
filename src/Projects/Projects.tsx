@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Projects.module.scss"
 import styleContainer from "./../common/styles/Container.module.css"
 import {Project} from "./project/project";
-import {Title} from "../table/Title";
+import {Title} from "../Title/Title";
 import network from "./../assets/image/network.jpg"
 import todo from "./../assets/image/todo.jpg"
 import counter from "./../assets/image/counter.jpg"
