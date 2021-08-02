@@ -4,11 +4,11 @@ import style from "./project.module.scss"
 type ProjectPropsType = {
     nameProject: string
     description: string
-    image: string
     style: any
 }
 
 export const Project: React.FC<ProjectPropsType> = (props) => {
+
     return (
         <div className={style.project}>
             <div style={props.style} className={style.icon}>
