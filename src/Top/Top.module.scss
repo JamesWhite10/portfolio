@@ -6,9 +6,12 @@
   font-size: 25px;
   position: fixed;
   z-index: 2;
-  top: 590px;
+  top: 665px;
   right: 10px;
   border: 2px solid white;
   border-radius: 10px 10px 10px 10px;
   opacity: 0.4;
+  @media screen and (max-width: 1345px) {
+    top: 610px;
+  }
 }
