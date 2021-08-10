@@ -18,10 +18,10 @@ export const Projects = () => {
                     <Project style={{backgroundImage: `url(${network})`}} nameProject={"Social Network"} description={"A social network project in which" +
                     " all the main tools and architectural solutions used in modern development are concentrated." +
                     " Configured to work with the server side and used in the work of React, Redux, Axios," +
-                    " Redux-Form, React hooks, TypeScript."} link={"https://JamesWhite10.github.io/social-network-2.0"}/>
+                    " Redux-Form, React hooks, TypeScript."} link={""}/>
                     <Project style={{backgroundImage: `url(${todo})`}} nameProject={"Todo List"} description={"\n" +
                     "To-do list project, with the ability to both add and delete to-do lists, and individual tasks" +
-                    " in the lists. Also in the application there is user login and saving all data on the server."} link={"https://JamesWhite10.github.io/todolist-3-max"}/>
+                    " in the lists. Also in the application there is user login and saving all data on the server."} link={""}/>
                     <Project style={{backgroundImage: `url(${counter})`}} nameProject={"Customizable counter"} description={"Meter project, with the ability" +
                     " to set the minimum and maximum values and" +
                     " turn off the controls when the set value" +
