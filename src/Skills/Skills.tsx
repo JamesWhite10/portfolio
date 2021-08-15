@@ -37,7 +37,7 @@ export const Skills = () => {
                         skill={"TypeScript"}
                         description={"I know TypeScript technology. I actively use this technology and understand" +
                         " its advantages in developing web applications."}
-                        image={"https://iconape.com/wp-content/png_logo_vector/typescript.png"}/>
+                        image={"https://www.bryntum.com/wp-content/uploads/2019/03/ts.png"}/>
                     <Skill
                         skill={"Git and GitHub"}
                         description={"I work with a version control system and understand how to use it on a project." +

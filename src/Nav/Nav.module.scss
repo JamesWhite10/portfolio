@@ -1,9 +1,27 @@
 .nav {
-    width: 500px;
-    display: flex;
-    justify-content: space-evenly;
-    & a {
-        color: white;
-        text-decoration: none;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    font-size: 20px;
+    font-family: "Bell MT";
+
+    &:hover {
+      color: crimson;
     }
+
+    .active {
+      color: crimson;
+    }
+  }
 }
+
