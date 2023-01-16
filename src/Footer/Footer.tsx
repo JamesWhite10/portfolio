@@ -16,7 +16,7 @@ export const Footer = () => {
                  <span className={style.icon}><img className={style.image} src={"https://www.bryntum.com/wp-content/uploads/2019/03/ts.png"} alt={"typeScript"}/></span>
                  <span className={style.icon}><img className={style.image} src={"https://web-profi.by/wp-content/uploads/git.jpg"} alt={"git"}/></span>
              </div>
-                <p className={style.rights}>&copy;2021, All rights reserved</p>
+                <p className={style.rights}>&copy; {new Date().getFullYear()}, All rights reserved</p>
             </div>
         </div>
     )

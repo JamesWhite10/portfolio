@@ -13,9 +13,9 @@ export const Main = () => {
                     <p>Front-End Developer.</p>
                 </div>
                 <div className={style.photo}>
-                    <img className={style.photo} src={photo} alt={"My Photo"}/>
+                    <img src={photo} alt={"My Photo"}/>
                 </div>
             </div>
         </div>
     )
-}
+};
